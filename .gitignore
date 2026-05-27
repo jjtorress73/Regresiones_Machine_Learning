@@ -1,0 +1,74 @@
+# .gitignore
+# =========================
+# Python
+_pycache_/
+*.py[cod]
+*$py.class
+# ========================
+# Basura
+environment.yml
+*:Zone.Identifier
+*.pkl
+# ========================
+# Entornos virtuales
+venv/
+env/
+.venv/
+ENV/
+
+# Archivos de configuración
+*.env
+
+# =========================
+# 📓 Jupyter Notebook
+# =========================
+.ipynb_checkpoints
+
+# =========================
+# Dependencias / builds
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Archivos de datos (opcional)
+# =========================
+# *.csv
+# *.xlsx
+# *.xls
+# *.parquet
+
+# ⚠️ Si quieres versionar datos, comenta estas líneas
+
+# =========================
+# Imágenes y outputs
+# =========================
+*.png
+*.jpg
+*.jpeg
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs y temporales
+# =========================
+*.log
+*.tmp
+*.swp
+
+# =========================
+# Bases de datos locales
+# =========================
+*.db
+*.sqlite3
